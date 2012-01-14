@@ -1,0 +1,8 @@
+libvehicle_socket_la-vehicle_socket.lo: vehicle_socket.c \
+ ../../../config.h ../../../navit/plugin.h ../../../navit/plugin_def.h
+
+../../../config.h:
+
+../../../navit/plugin.h:
+
+../../../navit/plugin_def.h:

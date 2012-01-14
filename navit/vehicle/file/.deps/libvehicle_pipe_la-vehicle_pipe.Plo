@@ -1,0 +1,8 @@
+libvehicle_pipe_la-vehicle_pipe.lo: vehicle_pipe.c ../../../config.h \
+ ../../../navit/plugin.h ../../../navit/plugin_def.h
+
+../../../config.h:
+
+../../../navit/plugin.h:
+
+../../../navit/plugin_def.h:

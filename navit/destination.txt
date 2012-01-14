@@ -1,0 +1,18 @@
+type=former_destination label="Main Street"
+mg:0x0 0x0
+type=former_destination label="Main Street"
+mg:-0x7b55fa 0x4f3f4a
+type=former_destination label="Russel Street"
+mg:0x0 0x0
+type=former_destination label="Graves Street"
+mg:-0x7b317e 0x4fc177
+type=former_destination label="Map Point"
+mg:-0x7b143d 0x4f7f5f
+type=former_destination label="Pease Place"
+mg:0x0 0x0
+type=former_destination label=" Pease Place"
+mg:0x0 0x0
+type=former_destination label="Pease Pklace"
+mg:0x0 0x0
+type=former_destination label="Pease Place"
+mg:-0x7b0c62 0x4f87f4

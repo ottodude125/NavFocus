@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 65
+Makefile.in
+.libs
+.deps
+Makefile
+org.navit_project.navit.service
+
+END

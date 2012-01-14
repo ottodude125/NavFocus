@@ -1,0 +1,8 @@
+libvehicle_serial_la-vehicle_serial.lo: vehicle_serial.c \
+ ../../../config.h ../../../navit/plugin.h ../../../navit/plugin_def.h
+
+../../../config.h:
+
+../../../navit/plugin.h:
+
+../../../navit/plugin_def.h:
