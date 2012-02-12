@@ -385,6 +385,8 @@ struct navigation {
 };
 
 
+FILE * jons_data;
+
 void headingUpdate(char * heading,struct navigation * nav)
 {
 		struct map * map=NULL;
@@ -428,6 +430,19 @@ void headingUpdate(char * heading,struct navigation * nav)
 			sprintf(heading,"Next Node %s Distance: %d Turn %s\n",nodeName,length,turn_dir);
 			//updateRouteData(int velocity, int road_angle, int distance, int turn_angle, int x1, int y1, int x2, int y2)
 			int a = updateRouteData(nav->navit->vehicle->speed, 0, length, turn_num,0, 0, 0, 0);
+			if(jons_data == NULL)
+			{
+				jons_data = fopen("jons_data","w+");
+			}
+			
+			if(jons_data == NULL)
+			{
+				printf("Unable to Write Jon's Data\n");
+			}
+			else
+			{
+				fprintf(jons_data,"%d,%d,%d,%d",nav->navit->vehicle->speed, 0, length, turn_num);
+			}
 			printf(" Number %d", current_item->angle_end);
 			processImageData();
 		}
